@@ -1,6 +1,6 @@
-# Project Overview: Bi-Elliptic Transfer Optimization
+# Description
 
-As an aerospace student, I was intrigued by the counter-intuitive nature of the Bi-elliptic transfer: by actually traveling further away from a target orbit before returning to it, one can sometimes save propellant. I chose to analyze this problem to define the specific conditions under which this complex maneuver becomes more efficient than the standard Hohmann transfer.
+I was intrigued by the counter-intuitive nature of the Bi-elliptic transfer. That is, by actually traveling further away from a target orbit before returning to it, one can sometimes save propellant. I chose to analyze this problem to define the specific conditions under which this complex maneuver becomes more efficient than the standard Hohmann transfer.
 <br />
 
 **The Mission:** Transfer a satellite from an initial circular orbit at 500 km altitude to a target circular orbit at 1,000 km altitude using a minimum amount of Delta-V ($\Delta V$).
