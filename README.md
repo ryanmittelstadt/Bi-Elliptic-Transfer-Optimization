@@ -6,14 +6,14 @@ I was intrigued by the counter-intuitive nature of the Bi-elliptic transfer. Tha
 **The Mission:** Transfer a satellite from an initial circular orbit at 500 km altitude to a target circular orbit at 1,000 km altitude using a minimum amount of Delta-V ($\Delta V$).
 <br />
 
-**The Curiosity:** While the Hohmann transfer is often the standard for efficiency, theoretical orbital mechanics suggests that for very large orbital radius ratios, adding a third maneuver at a high intermediate altitude ($R_{b}$) can be superior. I wanted to mathematically prove whether this was the case for Low Earth Orbit (LEO) transfers.
+While the Hohmann transfer is often the standard for efficiency, theoretical orbital mechanics suggests that for very large orbital radius ratios, adding a third maneuver at a high intermediate altitude ($R_{b}$) can be superior. I wanted to mathematically prove whether this was the case for Low Earth Orbit (LEO) transfers.
 
 ## 1. Mathematical Modeling and Velocity Components
 
 The maneuver involves calculating velocities across three distinct elliptical trajectories: departing the initial orbit, reaching an intermediate peak ($R_{b}$), and finally circularizing at the target orbit.
 <br />
 
-The fundamental tool used for this analysis is the Vis-viva equation, which links velocity ($v$) to the current radius ($r$) and the semi-major axis of the orbit ($a$):
+The tool used for this analysis is the Vis-viva equation, which links velocity ($v$) to the current radius ($r$) and the semi-major axis of the orbit ($a$):
 
 $$v^{2} = \mu \left( \frac{2}{r} - \frac{1}{a} \right)$$
 
